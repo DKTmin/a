@@ -80,3 +80,5 @@ SET r.diagnosis = "abc";
 //select after update
 MATCH (p:Patient {patient_id: "PT003"})-[r:BE_TREATED]->(d:Doctor {doctor_id: "DR.001"})
 RETURN r.start_date, r.end_date, r.diagnosis;
+
+MATCH (d:Doctor {doctor_id: $doctorId}) RETURN d
