@@ -1,0 +1,13 @@
+git clone https://github.com/DKTmin/a.git
+==> vào visual open folder "a"
+
+// tạo thư viện
+npm install
+npm install react-router-dom
+npm install react-redux @reduxjs/toolkit
+npm install -g json-server
+npm install tailwindcss @tailwindcss/vite
+
+// chạy
+npm run dev
+npm run json-server
